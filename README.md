@@ -1,2 +1,2 @@
-# Playit
+# Plinkr
 Group4 Project
