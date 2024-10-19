@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Plinkr-logo</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <button onclick="loadPage('home.html')">Logo</button>
+        </div>
+        <nav class="nav-links">
+            <button onclick="loadPage('about.html')">About</button>
+            <button onclick="loadPage('pricing.html')">Pricing</button>
+            <button onclick="loadPage('contactus.html')">Contact Us</button>
+            <button onclick="loadPage('team.html')">Our Team</button>
+        </nav>
+    </header>
+    <main id="content">
+        <!-- Different pages loaded here -->
+    </main>
+    <footer>
+        <div class="footer-content">
+            <button class="back-to-top" onclick="scrollToTop()">Back to Top</button>
+            <button class="call-to-action">Call to Action</button>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://x.com" target="_blank">X</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
